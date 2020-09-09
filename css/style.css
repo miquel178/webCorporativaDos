@@ -14,4 +14,114 @@
 /* Colores */
 
 /* ******************************** */
+/*tipografía*/
+html{
+    font-family: sans-serif;
+}
+/*margenes*/
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    list-style: none;
+
+}
+
+/*header*/
+header{
+    width: 100%;
+    height: 800px;
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}
+nav{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    flex-grow: 1;
+}
+nav a{
+    margin: 0 0 0 2rem;
+}
+.banner{
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+.banner h3{
+    font-size: 50px;
+}
+footer{
+    width: 100%;
+   /* height: 214px;*/
+   font-weight: bold;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   background-color: #c4c4c4;
+   
+}
+footer .contenido{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contactar,.redes,.suscribete{
+    text-align: center;
+    margin-top: 50px;
+}
+.iconos{
+    width: 158px;
+    height: 32px;
+    display: flex;
+    margin-top: 1.2em;
+ 
+    
+}
+.telefono{
+    margin-bottom: 1.2em;
+}
+form{
+     margin-top: 1.2em;
+
+}
+button,input{
+    border: solid 1px black;
+}
+button{
+    width: 95px;
+    height: 45px;
+    background-color: #c4c4c4;
+}
+input{
+    width: 288px;
+    height: 41px;
+    margin-right: -6px;
+    background-color: #d5d5d5;
+}
+
+
+
+
+
+
+
 
